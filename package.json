@@ -1,0 +1,22 @@
+{
+  "name": "surampatti",
+  "version": "1.0.0",
+  "description": "Prathiban's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "nalla iruka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathibanm/surampatti.git"
+  },
+  "keywords": [
+    "AK"
+  ],
+  "author": "prathiban mohanasundaram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathibanm/surampatti/issues"
+  },
+  "homepage": "https://github.com/prathibanm/surampatti#readme"
+}
