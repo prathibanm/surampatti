@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/prathibanm/surampatti/issues"
   },
-  "homepage": "https://github.com/prathibanm/surampatti#readme"
+  "homepage": "https://github.com/prathibanm/surampatti#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
 }
