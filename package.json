@@ -2,7 +2,7 @@
   "name": "surampatti",
   "version": "1.0.0",
   "description": "Prathiban's personal website",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "nalla iruka"
   },
