@@ -4,7 +4,7 @@
   "description": "Prathiban's personal website",
   "main": "app.js",
   "scripts": {
-    "test": "nalla iruka"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/prathibanm/surampatti#readme",
   "dependencies": {
-    "express": "^4.13.3",
-    "jade": "^1.11.0"
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "pug": "^0.1.0"
   }
 }

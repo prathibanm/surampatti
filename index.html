@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Prathiban Mohanasundaram</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+  <style>
+    /* navbar */
+.navbar-inverse {
+    /*background-color: transparent;
+    border-color: transparent;*/
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 10007;
+}
+.content-block-one {
+  padding: 50px;
+  padding-top: 100px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+}
+
+#prath-avtr{
+    width:240px;
+    height:200px;
+    box-shadow: 1px 2px #ddd;
+    border: 5px solid #fff;
+}
+
+.content-block-one h1,
+.content-block-one .h1 {
+  color: inherit;
+}
+.content-block-one p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.content-block-one > hr {
+  border-top-color: #d5d5d5;
+}
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .content-block-one {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-top: 100px;
+  }
+  .container .content-block-one {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .content-block-one h1,
+  .content-block-one .h1 {
+    font-size: 63px;
+  }
+}
+.content-space-one {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(prath-studio-bg-4.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(prath-studio-bg-3.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 260px;
+  padding-bottom: 140px;
+}
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+#footer{
+    background-color: #272727;
+    color:#fff;
+    
+}
+  </style>
+
+</head>
+
+
+After my multiple failed attempts with Node and AWS Elastic beanstalk for a couple of days. I finally got my static personal website launched just by using Amazon S3 and Route 53 in less than 3 hours . #Deliver Results :-)… show more
+
+
+<body>
+<!-- Code's messsy, basic layout for a small project I'm doing. Follow me on twitter @taylorgrendel for free pie!-->
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Prath<i>Studio</i>.com </a> <p class="navbar-text">
+<i>ideas without actions arent ideas </i></p>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#cb-one"><i class="fa fa-history" aria-hidden="true"></i> What i do?</a></li>
+        <li><a href="#footer"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Connect/Follow</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div id="startchange"></div>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="prath-site-bg.jpeg" alt="..." width="100%">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="prath-studio-bg-2.JPG" alt="..." width="100%">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="prath-studio-bg-5.JPG" alt="..." width="100%">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+  </div>
+
+  
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+<div class="content-block-one">
+           <div class="row">
+              <div class="col-sm-6 col-md-4">
+                   <img id="prath-avtr" src="prath-avatar.jpg" class="img-circle"/>
+              </div>
+              <div class="col-sm-6 col-md-8">
+                   <h2>Prathiban Mohanasundaram</h2>
+                   <p>Engineering Leader, Front End Engineer, Avid Traveller and Foodie</p>
+                   <p><i>Passionate about building stuff that delights people and simplifies their lives.</i></p>
+              </div>
+           </div>
+           
+</div>
+
+<div class="content-space-one">
+    <div class="text-center">
+                    
+    </div>
+</div>
+<div id="cb-one" class="content-block-one">
+             <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="" src="Amazon-Logo-PNG.png" alt="Generic placeholder image" width="220" height="90">
+          <h3>Manager, Software Development(Current)</h3>
+          <p>Managing a team of engineers to build features and systems that help accelerate the Amazon Retail Flywheel. In 2015, my team helped launch <a href="https://vendorexpress.amazon.com">Vendor Express</a>, a new program for small manufacturers to quickly sell their products and grow their business by partnering with Amazon.</p>
+          <p><a class="btn btn-default" target="_blank" href="https://www.linkedin.com/in/prathibanm" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="" src="Amazon-Logo-PNG.png" alt="Generic placeholder image" width="220" height="90">
+          <h3>Front End/Web Development Engineer</h3>
+          <p>
+Built experiences on the Amazon Retail Website worldwide, across all form factors(Web/Mobile/Fire Devices), to drive customer adoption of Prime digital benefits(Instant Video, Photos etc). Built an internal web tool that the Amazon finance analysts(worldwide) can access to create, track and manage invoices that flow through Amazon.  </p>
+          <p><a class="btn btn-default" target="_blank" href="https://www.linkedin.com/in/prathibanm" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="" src="CISCO-logo.png" width="220" height="90">
+          <h3>Software Engineer</h3>
+          <p>Worked for  the Cisco User Experience(CUES) team, building shared UI libraries for Web and Desktop applications that several application teams across CISCO could leverage to build a UX that follows the CUES UX standards.</p>
+          <p><a class="btn btn-default" target="_blank" href="https://www.linkedin.com/in/prathibanm" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+    </div>
+           
+    <div class="content-space-two">
+                <div class="text-center">
+                   <h1></h1>
+                    
+                <p></p>
+                </div>
+            </div>
+            <div id="footer"  class="content-block-one">
+               <div class="row">
+                 <div class="col-lg-8">
+                    <a class="btn btn-default" target="_blank" href="https://www.linkedin.com/in/prathibanm">
+                      <i class="fa fa-linkedin" title="Linked in" aria-hidden="true"></i>
+                      <span class="sr-only">Linked In</span>
+                    </a>
+                    <a class="btn btn-default" target="_blank"  href="https://twitter.com/prathibanm">
+                      <i class="fa fa-twitter" title="twitter" aria-hidden="true"></i>
+                      <span class="sr-only">Twitter</span>
+                    </a>
+                    <a class="btn btn-default" target="_blank"  href="https://www.facebook.com/prathiban.mohanasundaram">
+                      <i class="fa fa-facebook" title="Facebook" aria-hidden="true"></i>
+                      <span class="sr-only">Facebook</span>
+                    </a>
+                    <a class="btn btn-default" target="_blank" href="https://github.com/prathibanm">
+                      <i class="fa fa-github" title="Git Hub" aria-hidden="true"></i>
+                      <span class="sr-only">Git Hub</span>
+                    </a>
+                 </div>
+                 <div class="col-lg-4">
+                    <span>&copy; 2005-2016 Prathiban Mohanasundaram</span>
+                 </div>
+               </div>
+            </div>
+<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+            $(document).ready(function(){       
+                var scroll_start = 0;
+                var startchange = $('#startchange');
+                var offset = startchange.offset();
+                    if (startchange.length){
+                $(document).scroll(function() { 
+                    scroll_start = $(this).scrollTop();
+                    if(scroll_start > offset.top) {
+                          $(".navbar-default").css('background-color', '#ffffff');
+                       } else {
+                          $('.navbar-default').css('background-color', 'transparent');
+                       }
+                   });
+                    }
+            }); 
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77426647-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
